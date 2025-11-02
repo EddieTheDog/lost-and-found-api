@@ -1,20 +1,17 @@
 {
-  "name": "lost-and-found-api",
+  "name": "lost-and-found-frontend",
   "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "qrcode": "^1.5.1",
-    "pg": "^8.11.1"
+    "axios": "^1.6.0",
+    "qrcode.react": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "jsbarcode": "^3.11.5"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
